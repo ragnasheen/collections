@@ -1,0 +1,297 @@
+{
+  "info": {
+    "_postman_id": "76d58e87-7d9c-4000-9957-3490a235e50b",
+    "name": "APIs for Practical Exam",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "UpdateMemberContactInfo Copy",
+      "id": "903f1f02-1cc3-4848-86bc-b1d14c64595a",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://etiqa.com.ph/SmileApi/Api/UpdateMemberContactInfo?userid=user1&password=Pa$$w0rd123&cardno=10101343103631000&mobileno=09175775222&emailadd=michael.m.austria@gmail.com&displaypic=test",
+          "protocol": "https",
+          "host": [
+            "etiqa",
+            "com",
+            "ph"
+          ],
+          "path": [
+            "SmileApi",
+            "Api",
+            "UpdateMemberContactInfo"
+          ],
+          "query": [
+            {
+              "key": "userid",
+              "value": "user1"
+            },
+            {
+              "key": "password",
+              "value": "Pa$$w0rd123"
+            },
+            {
+              "key": "cardno",
+              "value": "10101343103631000"
+            },
+            {
+              "key": "mobileno",
+              "value": "09175775222"
+            },
+            {
+              "key": "emailadd",
+              "value": "michael.m.austria@gmail.com"
+            },
+            {
+              "key": "displaypic",
+              "value": "test"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MemberInfo Copy",
+      "id": "8e460030-ed5f-44bc-a762-f82a1372f0fe",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://etiqa.com.ph/SmileAPI/api/MemberInfo?userid=user1&password=Pa$$w0rd123&cardno=10101343103631000",
+          "protocol": "https",
+          "host": [
+            "etiqa",
+            "com",
+            "ph"
+          ],
+          "path": [
+            "SmileAPI",
+            "api",
+            "MemberInfo"
+          ],
+          "query": [
+            {
+              "key": "userid",
+              "value": "user1"
+            },
+            {
+              "key": "password",
+              "value": "Pa$$w0rd123"
+            },
+            {
+              "key": "cardno",
+              "value": "10101343103631000"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ValidateLogin Copy",
+      "id": "35f6a650-3979-4c45-ab15-907b62f23d07",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://etiqa.com.ph/SmileAPI/api/ValidateLogin?api_userid=user1&api_password=Pa$$w0rd123&app_userid=mmaustria&email=mmaustria@etiqa.com.ph&app_password=Avstr1@mm",
+          "protocol": "https",
+          "host": [
+            "etiqa",
+            "com",
+            "ph"
+          ],
+          "path": [
+            "SmileAPI",
+            "api",
+            "ValidateLogin"
+          ],
+          "query": [
+            {
+              "key": "api_userid",
+              "value": "user1"
+            },
+            {
+              "key": "api_password",
+              "value": "Pa$$w0rd123"
+            },
+            {
+              "key": "app_userid",
+              "value": "mmaustria"
+            },
+            {
+              "key": "email",
+              "value": "mmaustria@etiqa.com.ph"
+            },
+            {
+              "key": "app_password",
+              "value": "Avstr1@mm"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "VerifyAccount Copy",
+      "id": "9ff52d9f-dd6b-4662-bd37-522a90f80ed1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://etiqa.com.ph/SmileApi/Api/VerifyAccount?userid=user1&password=Pa$$w0rd123&cardno=10101343103631000&verificationcode=000000",
+          "protocol": "https",
+          "host": [
+            "etiqa",
+            "com",
+            "ph"
+          ],
+          "path": [
+            "SmileApi",
+            "Api",
+            "VerifyAccount"
+          ],
+          "query": [
+            {
+              "key": "userid",
+              "value": "user1"
+            },
+            {
+              "key": "password",
+              "value": "Pa$$w0rd123"
+            },
+            {
+              "key": "cardno",
+              "value": "10101343103631000"
+            },
+            {
+              "key": "verificationcode",
+              "value": "000000"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ResendCode Copy",
+      "id": "b994fed5-3cc5-42f0-a8cf-b8abdd9daead",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://etiqa.com.ph/SmileApi/Api/ResendCode?userid=user1&password=Pa$$w0rd123&cardno=10101343103631000",
+          "protocol": "https",
+          "host": [
+            "etiqa",
+            "com",
+            "ph"
+          ],
+          "path": [
+            "SmileApi",
+            "Api",
+            "ResendCode"
+          ],
+          "query": [
+            {
+              "key": "userid",
+              "value": "user1"
+            },
+            {
+              "key": "password",
+              "value": "Pa$$w0rd123"
+            },
+            {
+              "key": "cardno",
+              "value": "10101343103631000"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "SendVerificationCode Copy",
+      "id": "ec30736a-5695-4ded-99c1-ca5b2c117e73",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://etiqa.com.ph/SmileApi/Api/SendVerificationCode?userid=user1&password=Pa$$w0rd123&cardno=10101343103631000&sendcodethru=2",
+          "protocol": "https",
+          "host": [
+            "etiqa",
+            "com",
+            "ph"
+          ],
+          "path": [
+            "SmileApi",
+            "Api",
+            "SendVerificationCode"
+          ],
+          "query": [
+            {
+              "key": "userid",
+              "value": "user1"
+            },
+            {
+              "key": "password",
+              "value": "Pa$$w0rd123"
+            },
+            {
+              "key": "cardno",
+              "value": "10101343103631000"
+            },
+            {
+              "key": "sendcodethru",
+              "value": "2",
+              "description": "1-Email; 2-Mobile No."
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ChooseWhereToSendCode Copy",
+      "id": "7fdc54ba-1783-4c13-ac4c-d05453826159",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://etiqa.com.ph/SmileAPI/api/ChooseWhereToSendCode?userid=user1&password=Pa$$w0rd123&cardno=10101343103631000",
+          "protocol": "https",
+          "host": [
+            "etiqa",
+            "com",
+            "ph"
+          ],
+          "path": [
+            "SmileAPI",
+            "api",
+            "ChooseWhereToSendCode"
+          ],
+          "query": [
+            {
+              "key": "userid",
+              "value": "user1"
+            },
+            {
+              "key": "password",
+              "value": "Pa$$w0rd123"
+            },
+            {
+              "key": "cardno",
+              "value": "10101343103631000"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
